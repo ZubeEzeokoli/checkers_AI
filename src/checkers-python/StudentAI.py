@@ -25,7 +25,7 @@ class State():
 
     def select(self):
         """
-        given a State this function selects the child with the highest UCT of that State
+        given a State this function selects the child with the highest UCT(Upper confidence bound applied to Trees) of that State
         @return State: A State object
         """
         best_child = None        # no child found yet
